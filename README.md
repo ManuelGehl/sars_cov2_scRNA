@@ -18,3 +18,15 @@ Clustering was performed using the Leiden algorithm. The optimal resolution was 
 For cell annotation, Celltypist was used with the "Human_Lung_Atlas" model to categorize the clusters identified by the Leiden algorithm. This automated annotation process yielded several confidently annotated clusters, including Mast cells, multiciliated cells, CD8 T cells, plasma cells, submucosal gland cells (SMG), and goblet cells (**Fig. 2**). These annotations were consistent with the expected cell types and aligned well with the results from the original publication.
 
 ![Fig. 2](figures/umap_predictions.png)
+
+## Marker genes
+
+Marker genes play a crucial role in confirming cell type annotations and providing insights into specific biological processes. In this project, several marker genes were used to confirm the annotation of goblet cells and to investigate the expression of genes associated with SARS-CoV2 entry points.
+To confirm the annotation of goblet cells, the following marker genes were analyzed: S100P, LYPD2, PSCA, CEACAM5, and STEAP4. These genes are well-established markers for goblet cells, and their expression pattern within the UMAP corresponded to the expected cluster (**Fig. 3**). This observation provided additional evidence that the correct cell type annotation had been achieved for this key cluster.
+
+![Fig. 3](figures/umap_markers.png)
+
+In addition, the expression of two critical genes related to SARS-CoV2 entry was examined: ACE2 and TMPRSS2. The expression of these genes was sparse across the dataset, consistent with previous reports. However, when visualized on the UMAP, the few cells expressing ACE2 and TMPRSS2 tended to cluster within the region associated with nasal goblet cells (**Fig. 4**). This finding supports the hypothesis that goblet cells in the nasal region are potential entry points for SARS-CoV2, providing valuable insights into the initial stages of the virus's infection pathway.
+
+![Fig. 4](figures/umap_ace2_tmprss2.png)
+
