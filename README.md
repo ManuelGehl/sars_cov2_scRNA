@@ -1,5 +1,9 @@
 # sars_cov2_scRNA
 
+## Summary
+
+Analysis of single-cell RNA sequencing data from the human upper respiratory tract revealed selective expression of angiotensin-converting enzyme 2 (ACE2) in a minority of cell types, with co-expression of the viral spike protein activating protease TMPRSS2 predominantly in nasal goblet cells. This finding highlights the nuanced susceptibility of specific cell populations to SARS-CoV-2 infection.
+
 ## Background
 
 The identification of **angiotensin-converting enzyme 2 (ACE2)** as the receptor for **SARS-CoV-2** underscores the critical importance of identifying the cellular landscape of ACE2 expression. This receptor-ligand interaction is central to the initial stages of viral infection, where binding of the viral spike protein to ACE2 results in receptor-mediated internalization, facilitating viral entry into host cells. Complementarily, the **major host protease TMPRSS2** plays a critical role in mediating spike protein activation on primary target cells. However, despite the understanding of these molecular interactions, the specific cell subsets expressing ACE2 in different tissues remain elusive. Identifying the cell subsets targeted by SARS-CoV-2, characterized by ACE2 expression, and those at greatest risk of direct infection, characterized by co-expression of ACE2 and TMPRSS2, is paramount to understanding viral pathogenesis and host defense mechanisms.
