@@ -1,5 +1,11 @@
 # sars_cov2_scRNA
 
+## Background
+
+The identification of **angiotensin-converting enzyme 2 (ACE2)** as the receptor for **SARS-CoV-2** underscores the critical importance of identifying the cellular landscape of ACE2 expression. This receptor-ligand interaction is central to the initial stages of viral infection, where binding of the viral spike protein to ACE2 results in receptor-mediated internalization, facilitating viral entry into host cells. Complementarily, the **major host protease TMPRSS2** plays a critical role in mediating spike protein activation on primary target cells. However, despite the understanding of these molecular interactions, the specific cell subsets expressing ACE2 in different tissues remain elusive. Identifying the cell subsets targeted by SARS-CoV-2, characterized by ACE2 expression, and those at greatest risk of direct infection, characterized by co-expression of ACE2 and TMPRSS2, is paramount to understanding viral pathogenesis and host defense mechanisms.
+
+Motivated by this need, this project utilizes existing single-cell RNA sequencing datasets from the human upper respiratory tract, with a focus on the mucosa of the inferior turbinate and ethmoid sinuses. These datasets include a spectrum of samples from healthy donors to individuals with allergic inflammation due to chronic rhinosinusitis (CRS), providing a comprehensive view of the cellular landscape in both normal and inflammatory conditions. By analyzing these datasets, I aimed to reproduce some of the findings of the original study by Ziegler et al. to shed light on the cellular susceptibility to SARS-CoV-2 infection.
+
 ## Data and Preprocessing
 
 The data used in this project comes from human upper airway tissue, specifically the inferior turbinate and ethmoid sinus mucosa. It was obtained from the Broad Institute's Single Cell Portal with the accession number SCP253.
