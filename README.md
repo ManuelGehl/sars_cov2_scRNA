@@ -43,3 +43,8 @@ In addition, the expression of two critical genes related to SARS-CoV2 entry was
 ![Fig. 4](figures/umap_ace2_tmprss2.png)
 **Figure 4: UMAP projections highlighting the SARS-CoV2 cell entry associated genes ACE2 and TMPRSS2.**
 
+## References
+
+Ziegler, C.G.K. et al. (2020) ‘SARS-CoV-2 Receptor ACE2 Is an Interferon-Stimulated Gene in Human Airway Epithelial Cells and Is Detected in Specific Cell Subsets across Tissues’, Cell, 181(5), pp. 1016-1035.e19. Available at: https://doi.org/10.1016/j.cell.2020.04.035.
+
+Ordovas-Montanes, J. et al. (2018) ‘Allergic inflammatory memory in human respiratory epithelial progenitor cells’, Nature, 560(7720), pp. 649–654. Available at: https://doi.org/10.1038/s41586-018-0449-8.
